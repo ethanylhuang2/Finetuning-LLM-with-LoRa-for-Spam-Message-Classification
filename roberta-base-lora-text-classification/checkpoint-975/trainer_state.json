@@ -1,0 +1,39 @@
+{
+  "best_metric": 0.05097267031669617,
+  "best_model_checkpoint": "roberta-base-lora-text-classification\\checkpoint-975",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 975,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.5128205128205128,
+      "grad_norm": 3.4779591260303278e-06,
+      "learning_rate": 0.0009487179487179487,
+      "loss": 0.1071,
+      "step": 500
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": {
+        "accuracy": 0.9904306220095693
+      },
+      "eval_loss": 0.05097267031669617,
+      "eval_runtime": 14.3926,
+      "eval_samples_per_second": 116.171,
+      "eval_steps_per_second": 29.043,
+      "step": 975
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 9750,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 10,
+  "save_steps": 500,
+  "total_flos": 1034110627430400.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}
